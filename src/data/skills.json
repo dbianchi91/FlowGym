@@ -1,0 +1,310 @@
+[
+    {
+        "id": "mind_box_breathing",
+        "title": "Respirazione a scatola (Box Breathing)",
+        "category": "Mente",
+        "description": "Protocollo dei Navy SEALs per attivare il sistema parasimpatico. Riduce stress acuto e abbassa il battito cardiaco.",
+        "duration_minutes": 5,
+        "steps": [
+            "Siediti in posizione comoda, con la schiena dritta.",
+            "Inspira dal naso contando lentamente fino a 4.",
+            "Trattieni il respiro a polmoni pieni contando fino a 4.",
+            "Espira lentamente dalla bocca contando fino a 4.",
+            "Trattieni il respiro a polmoni vuoti contando fino a 4.",
+            "Ripeti questo ciclo in modo continuo e fluido."
+        ]
+    },
+    {
+        "id": "mind_physiological_sigh",
+        "title": "Sospiro Fisiologico (Physiological Sigh)",
+        "category": "Mente",
+        "description": "Studiato dal laboratorio di neurobiologia di Andrew Huberman (Stanford). È il metodo più rapido scientificamente provato per calmare il sistema nervoso in tempo reale.",
+        "duration_minutes": 2,
+        "steps": [
+            "Fai una lunga e profonda inspirazione dal naso.",
+            "Senza espirare, fai una seconda rapida inspirazione (sempre dal naso) per riempire completamente i polmoni.",
+            "Espira lentamente e completamente dalla bocca, come se stessi soffiando in una cannuccia.",
+            "Ripeti per 3-5 volte."
+        ]
+    },
+    {
+        "id": "body_desk_opening",
+        "title": "Apertura Toracica per Desk Worker",
+        "category": "Movimento",
+        "description": "Contrasta la 'postura da computer' inibendo meccanicamente la tensione dei pettorali e attivando i romboidi, favorendo maggiore ossigenazione cerebrale.",
+        "duration_minutes": 3,
+        "steps": [
+            "Alzati in piedi, piedi alla larghezza delle spalle.",
+            "Incrocia le dita delle mani dietro la schiena, vicino ai glutei.",
+            "Raddrizza le braccia e spingi delicatamente le mani verso il basso e lontano dal corpo.",
+            "Apri il petto verso l'alto e fai 5 respiri profondi.",
+            "Rilascia e ruota le spalle all'indietro 5 volte."
+        ]
+    },
+    {
+        "id": "focus_nsdr",
+        "title": "NSDR (Non-Sleep Deep Rest)",
+        "category": "Produttività",
+        "description": "Protocollo di rilassamento profondo senza sonno. Aumenta la dopamina striatale del 65% aiutando il recupero cognitivo senza dormire.",
+        "duration_minutes": 10,
+        "steps": [
+            "Sdraiati su una superficie comoda con le braccia lungo i fianchi.",
+            "Chiudi gli occhi e porta l'attenzione al respiro, senza forzarlo.",
+            "Esegui uno scan mentale: rilassa partendo dai piedi, sughi polpacci, cosce, bacino, addome.",
+            "Rilassa le spalle, le braccia, il collo, la mascella e i muscoli intorno agli occhi.",
+            "Rimani concentrato sulla sensazione di peso del tuo corpo per tutta la durata.",
+            "Al termine, muovi lentamente dita di mani e piedi e apri gli occhi."
+        ]
+    },
+    {
+        "id": "prod_pomodoro_sprint",
+        "title": "Micro Sprint di Focus (Pomodoro 10m)",
+        "category": "Produttività",
+        "description": "Riduce l'attrito iniziale (limite cognitivo dell'inizio task). Superati i 5 minuti, l'amigdala riduce la resistenza psicologica al lavoro.",
+        "duration_minutes": 10,
+        "steps": [
+            "Chiudi fisicamente ogni app/tab non necessaria per la singola micro-task.",
+            "Allontana il telefono dalla visuale (fuori dalla scrivania).",
+            "Per 10 minuti lavora solo sull'unica task identificata.",
+            "Non preoccuparti di finire la task, preoccupati solo di non interrompere l'azione per questi 10 minuti."
+        ]
+    },
+    {
+        "id": "mood_gratitude_journaling",
+        "title": "Gratitudine Specifica (CBT)",
+        "category": "Mente",
+        "description": "Protocollo di Psicologia Positiva (Martin Seligman). Esercizio dimostrato per aumentare serotonina e ridurre i livelli base di cortisolo nel tempo.",
+        "duration_minutes": 5,
+        "steps": [
+            "Trova carta e penna.",
+            "Non scrivere cose generiche ('la mia famiglia'). Sforzati di trovare 3 momenti SPECIFICI di ieri o oggi.",
+            "Es: 'Il sapore del caffè stamattina mentre guardavo fuori' oppure 'Il complimento di [Nome]'.",
+            "Scrivi il PERCHÉ sei grato per ciascuna di quelle specifiche cose.",
+            "Rileggi le 3 frasi prima di concludere."
+        ]
+    },
+    {
+        "id": "body_neck_mobility",
+        "title": "Reset della Mobilità Cervicale",
+        "category": "Movimento",
+        "description": "Rilascia la tensione dei muscoli suboccipitali collegati allo stress visivo da schermi (che causano cefalea muscolo-tensiva).",
+        "duration_minutes": 4,
+        "steps": [
+            "Da seduto o in piedi, abbassa lentamente il mento verso il petto (tieni per 15 sec).",
+            "Crea delle mezze lune lente: porta l'orecchio destro verso la spalla destra.",
+            "Ruota lentamente in basso verso il centro e porta l'orecchio sinistro verso la spalla sinistra.",
+            "Fai 5 rotazioni fluide.",
+            "Guarda un punto il più lontano possibile dalla finestra (per rilassare l'accomodazione visiva)."
+        ]
+    },
+    {
+        "id": "focus_cognitive_dump",
+        "title": "Svuotamento Cognitivo (Braindump)",
+        "category": "Produttività",
+        "description": "Effetto Zeigarnik: il cervello continua a ricordare ossessivamente i compiti non finiti. Scriverli trasferisce il carico cognitivo dalla working memory alla carta.",
+        "duration_minutes": 5,
+        "steps": [
+            "Prendi un foglio bianco o apri un file di testo.",
+            "Scrivi velocemente TUTTO ciò che ti passa per la testa: task, preoccupazioni, idee, chiamate da fare.",
+            "Non filtrare, non dare priorità, scrivi solo un elenco a punti per 3 minuti ininterrotti.",
+            "Alla fine, metti un asterisco solo accanto alle 2 cose vitali per la giornata di oggi. Dimentica il resto per ora."
+        ]
+    },
+    {
+        "id": "mood_cognitive_reframing",
+        "title": "Ristrutturazione Cognitiva (CBT)",
+        "category": "Mente",
+        "description": "Tecnica cognitivo-comportamentale essenziale. Interrompe il ciclo della ruminazione analizzando il pensiero come un'ipotesi e non come un fatto.",
+        "duration_minutes": 7,
+        "steps": [
+            "Qual è il pensiero negativo o intrusivo che stai avendo ora? Scrivilo in una riga.",
+            "Esamina le prove a favore: perché pensi sia vero in modo inconfutabile?",
+            "Esamina le prove contrarie: quali fatti oggettivi dimostrano che potrebbe NON essere vero al 100%?",
+            "Crea un 'Pensiero Alternativo Equilibrato': riscrivi la situazione nel modo più oggettivo e neutro possibile (niente catastrofismo)."
+        ]
+    },
+    {
+        "id": "body_20_20_20",
+        "title": "Regola Visiva 20-20-20",
+        "category": "Movimento",
+        "description": "Protocollo oftalmologico preventivo. Riduce lo stress ciliare (gli spasmi del muscolo dell'occhio) responsabile della stanchezza da computer.",
+        "duration_minutes": 5,
+        "steps": [
+            "Guarda lontano dallo schermo.",
+            "Fissa un oggetto situato ad almeno 6 metri (20 piedi) di distanza.",
+            "Mantieni lo sguardo rilassato su quell'oggetto per 20 secondi.",
+            "Chiudi forte gli occhi per 2 secondi, e poi sbatti le palpebre velocemente 5 volte per reidratare la cornea.",
+            "Ora fai un po' di stretching al collo prima di tornare a lavorare."
+        ]
+    },
+    {
+        "id": "mind_4_7_8",
+        "title": "Respirazione 4-7-8 (Dr. Weil)",
+        "category": "Mente",
+        "description": "Basata sul pranayama indiano antico. Ha dimostrato clinicamente di rallentare il ritmo cardiaco, ridurre l'ansia da prestazione e favorire il sonno.",
+        "duration_minutes": 5,
+        "steps": [
+            "Metti la punta della lingua dietro i denti incisivi superiori e tienila lì.",
+            "Espira completamente dalla bocca facendo un suono simile a un sibilo.",
+            "Chiudi la bocca e inspira silenziosamente dal naso per 4 secondi.",
+            "Trattieni il respiro (senza stringere la gola) per 7 secondi.",
+            "Espira con il sibilo dalla bocca misurando 8 secondi completi.",
+            "Ripeti per un totale di 4 cicli completi."
+        ]
+    },
+    {
+        "id": "prod_implementation_intentions",
+        "title": "Implementation Intention (If-Then)",
+        "category": "Produttività",
+        "description": "Basato sugli studi di Peter Gollwitzer (1999). Formulando piani 'se... allora...', si riduce la probabilità di procrastinazione legando la task a un trigger ambientale.",
+        "duration_minutes": 5,
+        "steps": [
+            "Pensa a una task che continui a procrastinare oggi.",
+            "Definisci l'azione esatta da completare in modo ultra-specifico.",
+            "Ora costruisci un limite se-allora fisico.",
+            "Es: 'SE finisco di pranzare (trigger) / SE sono le 15:00, ALLORA mi siederò, aprirò la mail X e dedicherò 5 minuti'.",
+            "Scrivi la tua regola e impostala come reminder visivo o allarme sul telefono."
+        ]
+    },
+    {
+        "id": "body_wall_sits",
+        "title": "Squat Isometrico a Parete (Wall Sit)",
+        "category": "Movimento",
+        "description": "L'isometria stimola i recettori del dolore abbassando la pressione sanguigna post-sforzo, migliorando il flusso sanguigno verso il cervello e 'resettando' il focus chimico.",
+        "duration_minutes": 3,
+        "steps": [
+            "Trova un muro libero.",
+            "Appoggiati al muro scendendo come se ti sedessi su una sedia invisibile.",
+            "Le tue ginocchia devono formare un angolo di 90 gradi. Pianta bene i talloni a terra.",
+            "Contrai gli addominali. Cerca di mantenere la posizione per 45 - 60 secondi.",
+            "Riposati per 30 secondi e ripeti altre 2 volte. Concentrati sul bruciore e sul respiro."
+        ]
+    },
+    {
+        "id": "mind_five_senses",
+        "title": "Grounding 5-4-3-2-1",
+        "category": "Mente",
+        "description": "Tecnica clinica per ancorarsi al presente (Grounding). Blocca gli attacchi di panico latenti spostando l'elaborazione neurologica dalla corteccia prefrontale ai centri sensoriali.",
+        "duration_minutes": 3,
+        "steps": [
+            "Guardati intorno a voce alta individua e nomina 5 cose fisiche che PUOI VEDERE.",
+            "Tocca e riconosci 4 cose che PUOI SENTIRE fisicamente (la trama del tavolo, i tuoi vestiti).",
+            "Ascolta e identifica con precisione 3 suoni distinti che PUOI UDIRE.",
+            "Sforzati di trovare 2 odori che PUOI ANNUSARE (se non ce ne sono vicini, annusa un libro, il tuo polso, ecc).",
+            "Identifica 1 cosa che PUOI GUSTARE (Bevi un sorso d'acqua o nota il gusto al momento nella bocca)."
+        ]
+    },
+    {
+        "id": "focus_progressive_muscle",
+        "title": "Rilassamento Muscolare Progressivo (Jacobson)",
+        "category": "Mente",
+        "description": "Sviluppato dal Dr. Edmund Jacobson negli anni '20. Aiuta a riconoscere fisicamente la differenza somatica tra tensione e rilassamento.",
+        "duration_minutes": 8,
+        "steps": [
+            "Siediti comodamente con gli occhi chiusi.",
+            "Partendo dai PIEDI: contrai le dita dei piedi e i polpacci fortissimo per 5 secondi.",
+            "Rilascia la tensione improvvisamente e nota il senso di calore (10 sec di pausa).",
+            "Passa alle COSCE E GLUTEI: contrai per 5 sec, poi rilascia.",
+            "Passa a ADDOME E PETTO: trattieni e contrai per 5 sec, poi espira e rilascia.",
+            "Passa prima a BRACCIA/MANI (stringi i pugni), poi a SPALLE/COLLO, infine ai MUSCOLI FACCIALI.",
+            "Respira normalmente per l'ultimo minuto restando passivamente rilassato."
+        ]
+    },
+    {
+        "id": "prod_eat_the_frog",
+        "title": "Estrazione del Rospo (Task Chunking)",
+        "category": "Produttività",
+        "description": "Incrocia la Matrice di Eisenhower col micro-chunking. Isola il compito a più alto tasso d'ansia per disarmare la sua paralisi cognitiva.",
+        "duration_minutes": 5,
+        "steps": [
+            "Identifica qual è il compito odierno che ti causa più stress e che staresti per evitare (Il Rospo).",
+            "Smettila di pensare all'intero progetto. Qual è il PRIMISSIMO PASSO letterale, misurabile in secondi, da fare?",
+            "Es: 'Devo fare le tasse' -> Primo passo: 'Aprire la cartella dei PDF'.",
+            "Scrivi o dichiara a te stesso SOLO QUEL MICRO-PASSO.",
+            "Esegui l'azione ridicola di quel micro-passo. Una volta fatto, l'inerzia ti trainerà per i passi successivi."
+        ]
+    },
+    {
+        "id": "body_vagus_nerve_massage",
+        "title": "Stimolazione del Nervo Vago",
+        "category": "Mente",
+        "description": "Il nervo vago collega intestino, cuore e cervello. Manovre fisiche dolci possono inviare input chimici calmanti al tronco encefalico (aumento tono vagale).",
+        "duration_minutes": 3,
+        "steps": [
+            "Incrocia le mani dietro la testa, alla base del cranio.",
+            "Mantenendo il collo fermo e la testa dritta, sposta lo sguardo solo con gli occhi verso destra.",
+            "Mantieni lo sguardo estremo a destra fino a che non accade un sospiro spontaneo o sbadigli o deglutisci (circa 30-60 sec).",
+            "Riporta gli occhi al centro e riposa per 5 secondi.",
+            "Ripeti guardando estremo verso sinistra fino al manifestarsi del rilassamento fisiologico."
+        ]
+    },
+    {
+        "id": "prod_two_minute_rule",
+        "title": "La Regola dei 2 Minuti",
+        "category": "Produttività",
+        "description": "Preso in prestito da 'Getting Things Done' (David Allen). Aiuta a sgomberare istantaneamente il debito di micro-task irrisolte recuperando il controllo.",
+        "duration_minutes": 6,
+        "steps": [
+            "Imposta un timer di 5 minuti totali (di cui 1 di pianificazione, 4 di esecuzione).",
+            "Ripensa velocemente alle cose in sospeso che possono richiedere letteralmente meno di due minuti. (es: rispondere a quella chat rapida, buttare la carta, lavare la tazza).",
+            "Nei restanti 4 minuti esegui come una macchina quante più di queste micro-tasks riesci senza pensarci.",
+            "Fermati implacabilmente quando scatta il timer. Il picco di dopamina da mini-vittorie resetterà il tuo cervello."
+        ]
+    },
+    {
+        "id": "mind_physiological_sigh",
+        "title": "Sospiro Fisiologico (Huberman Lab)",
+        "category": "Mente",
+        "description": "Forte evidenza clinica nello shift immediato del sistema autonomo dal simpatico verso il parasimpatico. Sgombera l'eccesso di anidride carbonica.",
+        "duration_minutes": 2,
+        "steps": [
+            "Fai una rapida inspirazione profonda dal naso fino a riempire quasi completamente i polmoni.",
+            "Quando sei quasi al limite, fai una seconda inspirazione breve e rapida ('sniff') sempre dal naso per massimizzare il volume alveolare.",
+            "Espira molto lentamente e profondamente dalla bocca fino a svuotare del tutto l'aria.",
+            "Concentrati sul respiro lungo d'uscita: è questo che abbassa i battiti.",
+            "Ripeti per 3-5 cicli. Questo hack rapido modula istantaneamente i livelli di arousal."
+        ]
+    },
+    {
+        "id": "prod_zeigarnik_loop",
+        "title": "Chiusura Loop di Zeigarnik",
+        "category": "Produttività",
+        "description": "L'effetto Zeigarnik indica che i compiti interrotti tengono in ostaggio la RAM mentale. Esternalizzarli abbassa istantaneamente l'ansia.",
+        "duration_minutes": 5,
+        "steps": [
+            "Prendi carta e penna o apri una nota sull'app/telefono. Devi fisicamente scrivere.",
+            "Elenca rapidamente tutti i 'loop aperti' (conversazioni da finire, decisioni in sospeso, email da inviare). Tutto ciò che ronza in testa.",
+            "Non organizzare o filtrare l'elenco. L'obiettivo è trasferire il peso dalla memoria di lavoro (RAM) a un supporto esterno.",
+            "Respira. Il cervello sa ora che l'informazione è al sicuro e smetterà di riproportela ossessivamente.",
+            "Solo ora, scegli una sola priorità reale per la giornata."
+        ]
+    },
+    {
+        "id": "body_bilateral_stimulation",
+        "title": "Stimolazione Bilaterale (Butterfly Hug)",
+        "category": "Movimento",
+        "description": "Tecnica usata nei traumi (EMDR) per elaborare forti risposte emotive de-escalando l'iper-attivazione amigdaloide tramite interazione emisferica.",
+        "duration_minutes": 3,
+        "steps": [
+            "Incrocia le braccia sul petto in modo che le dita della mano destra tocchino la clavicola/spalla sinistra e viceversa.",
+            "Chiudi gli occhi e inizia a tamburellare alternatamente sulle spalle, ritmicamente (come le ali di una farfalla).",
+            "Non cercare di scacciare i pensieri o le emozioni frustranti del momento, lasciali fluire.",
+            "Continua il tamburellamento per uno o due minuti completi.",
+            "Fermati quando avverti un netto calo dell'intensità emotiva nel corpo o quando l'urgenza dell'emozione decresce."
+        ]
+    },
+    {
+        "id": "mind_self_compassion_break",
+        "title": "Self-Compassion Break (Kristin Neff)",
+        "category": "Mente",
+        "description": "Protocollo specifico testato su atleti per disinnescare la severa autocritica in momenti di fallimento o inadeguatezza che paralizzano l'azione successiva.",
+        "duration_minutes": 4,
+        "steps": [
+            "Primo step - Mindfulness: ammetti apertamente la difficoltà. Dimmi a te stesso: 'Questo è un momento davvero difficile' o 'Fa male in questo momento'.",
+            "Secondo step - Umanità condivisa: riconosci di non essere solo. Pensa: 'Anche altri provano questa sensazione', 'Sentirsi inadeguati a volte è normale umano'.",
+            "Terzo step - Gentilezza: metti una mano sul cuore per il calore fisico del contatto tattile calmante.",
+            "Ripeti l'intenzione curativa: 'Che io possa essere comprensivo verso me stesso; che io possa darmi ciò di cui ho bisogno ora'.",
+            "L'autocritica attiva minaccia (fight-flight), la compassione rilascia ossitocina promuovendo il senso primordiale di cura."
+        ]
+    }
+]

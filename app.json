@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "FLOWGYM",
+    "slug": "FLOWGYM",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/imgs/flow_gym_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/imgs/flow_gym_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#111827"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.flowgym.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#111827",
+        "foregroundImage": "./src/assets/imgs/flow_gym_logo.png"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/imgs/flow_gym_logo.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5caff774-d310-40d7-b710-0141888fceb6"
+      }
+    },
+    "owner": "ilwaissen"
+  }
+}
