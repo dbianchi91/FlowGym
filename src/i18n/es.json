@@ -1,0 +1,679 @@
+{
+    "tabs": {
+        "home": "Hoy",
+        "activities": "Actividades",
+        "goals": "Objetivos",
+        "history": "Historial"
+    },
+    "headers": {
+        "home": "FlowGym",
+        "activities": "Tus Actividades",
+        "goals": "Tus Objetivos",
+        "history": "Tu Progreso"
+    },
+    "ai": {
+        "global": {
+            "checkin_cta": "Hacer Check-In",
+            "checkin_title": "Buen momento, {{name}}",
+            "checkin_msg": "Comienza tu sesión diciéndome cómo te sientes hoy."
+        },
+        "gentle": {
+            "general": {
+                "title": "Sé amable contigo mismo, {{name}} 💙",
+                "message": "Humor en {{moodAvg}}/5. Demos pequeños pasos: una habilidad ligera puede marcar una gran diferencia.",
+                "ctaLabel": "Iniciar habilidad calmante"
+            },
+            "morning": {
+                "1": {
+                    "title": "Un comienzo suave, {{name}} 🌅",
+                    "message": "No fuerces hoy. Una práctica suave para despertar el cuerpo con calma.",
+                    "ctaLabel": "Despertar suave"
+                }
+            }
+        },
+        "coach": {
+            "general": {
+                "title": "¡Estás en racha, {{name}}! 🔥",
+                "message": "¡{{streak}} días consecutivos de {{target}}! La energía es estable en {{energyAvg}}/5. Mantengamos este ritmo.",
+                "ctaLabel": "Elegir desafío"
+            }
+        },
+        "energetic": {
+            "general": {
+                "title": "¡Energía al máximo! ⚡",
+                "message": "Indicadores top (Energía: {{energyAvg}}/5). Aprovecha este momento para sesiones de trabajo profundo.",
+                "ctaLabel": "Sprint de concentración"
+            }
+        },
+        "calm": {
+            "general": {
+                "title": "Baja el ritmo, {{name}} 🌙",
+                "message": "Tu sueño marca {{sleepAvg}}/5. Este es el momento ideal para una sesión de relajación profunda.",
+                "ctaLabel": "Relajación"
+            }
+        },
+        "balanced": {
+            "general": {
+                "title": "Tu momento, {{name}} 🧘",
+                "message": "Equilibrio óptimo. Tu energía es estable. Mantén el rumbo en esta fase.",
+                "ctaLabel": "Práctica de mantenimiento"
+            }
+        },
+        "empathic": {
+            "general": {
+                "title": "Un paso a la vez",
+                "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                "ctaLabel": "Descubrir"
+            },
+            "morning": {
+                "1": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                },
+                "2": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                },
+                "3": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                }
+            },
+            "lunch": {
+                "1": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                },
+                "2": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                },
+                "3": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                }
+            },
+            "evening": {
+                "1": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                },
+                "2": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                },
+                "3": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                }
+            },
+            "night": {
+                "1": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                },
+                "2": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                },
+                "3": {
+                    "title": "Un paso a la vez",
+                    "message": "He notado que últimamente es un momento difícil. Vamos con calma hoy.",
+                    "ctaLabel": "Descubrir"
+                }
+            }
+        }
+    },
+    "insights": {
+        "trend_up": "Tu energía aumentó en +{{delta}} puntos en comparación con la semana anterior.",
+        "trend_down": "Tu energía disminuyó en {{delta}} puntos. Intenta habilidades de movimiento.",
+        "correlation": "Cuando tu sueño cae por debajo de {{threshold}}/5, tu enfoque también tiende a bajar.",
+        "best_day": "Tu mejor día reciente fue el {{day}}.",
+        "worst_day": "El {{day}} fue tu día más difícil, con un promedio de {{value}}/5."
+    },
+    "home": {
+        "greeting": "Hola 👋",
+        "greeting_name": "Hola, {{name}}👋",
+        "subtitle": "¿Listo para tu Flow?",
+        "level": "Nivel",
+        "check_in_btn": "Hacer Check-In",
+        "check_in_done": "Check-In Completado",
+        "goals_title": "Objetivos Actuales",
+        "add_goal": "Nuevo Objetivo",
+        "goal_title_placeholder": "Título del objetivo...",
+        "btn_save": "Guardar",
+        "btn_cancel": "Cancelar",
+        "goal_steps": "Pasos",
+        "goal_mid": "Medio Plazo",
+        "goal_long": "Largo Plazo",
+        "completed_toast": "¡Objetivo completado, {{name}}! 🎉",
+        "completed_default": "¡Objetivo completado, Campeón! 🎉",
+        "step_forward": "¡Paso adelante!",
+        "target_reached": "¡Objetivo alcanzado!",
+        "encouragement_1": "No te rindas.",
+        "encouragement_2": "Inténtalo de nuevo.",
+        "encouragement_3": "Fuerza y coraje.",
+        "encouragement_4": "El fracaso es una lección.",
+        "encouragement_5": "Vuelve más fuerte.",
+        "modal_title_fail": "¡Vamos!",
+        "modal_title_confirm": "Confirmar Resultado",
+        "modal_msg_confirm": "Has alcanzado el 100% de los pasos para este objetivo. ¿Cuál es el resultado final?",
+        "btn_success": "Avanzar",
+        "btn_fail": "Fallido",
+        "goal_short": "Corto Plazo",
+        "btn_progress": "Avanzar",
+        "btn_done": "Hecho",
+        "empty_goals_title": "Agrega un objetivo.",
+        "empty_goals_sub": "Planta una semilla hoy.",
+        "confirm_complete_title": "¿Objetivo Alcanzado?",
+        "confirm_fail_title": "¿Objetivo Fallido?",
+        "confirm_complete_msg": "¿Completaste el objetivo?",
+        "confirm_fail_msg": "¿Marcar como fallido?",
+        "btn_success_confirm": "¡Sí, Alcanzado!",
+        "btn_fail_confirm": "Sí, Fallido"
+    },
+    "activities": {
+        "check_in_prompt_title": "Comienza tu Flow",
+        "check_in_prompt_desc": "Haz tu check-in diario para desbloquear tu micro-habilidad.",
+        "check_in_btn": "Ir al Check-In",
+        "pending_skill_title": "Tu habilidad de hoy",
+        "pending_skill_desc": "Lista para ser completada.",
+        "pending_skill_action": "Empezar ahora",
+        "extra_activities": "Actividades Extra",
+        "duration_min": "min",
+        "missing_checkin_label": "📅 CHECK-IN FALTANTE",
+        "start_checkin": "Iniciar Check-In",
+        "checkin_desc": "Completa el seguimiento hoy para desbloquear tu microskill.",
+        "go_to_checkin": "Ir a Check-In →",
+        "pending_skill_label": "🧘 Micro-Skill pendiente",
+        "resume": "Reanudar →",
+        "extra_label": "✨ ACTIVIDADES EXTRA",
+        "extra_hint": "Elige una actividad extra para ganar +15 XP"
+    },
+    "goals": {
+        "tab_active": "En Curso",
+        "tab_completed": "Completados",
+        "tab_failed": "Fallidos",
+        "empty_active": "Sin objetivos activos.",
+        "empty_completed": "Ningún objetivo cumplido.",
+        "empty_failed": "Ningún objetivo fallido.",
+        "log_btn": "Registro",
+        "log_modal_title": "Diario: {{title}}",
+        "log_placeholder": "Escribe una actualización...",
+        "log_empty": "Aún no hay notas aquí.",
+        "log_read_only": "Objetivo cerrado. El diario es de solo lectura.",
+        "log_title": "Diario",
+        "log_empty_sub": "¡Añade tu progreso abajo!",
+        "created_at": "Creado:",
+        "adaptive_suggestion": "He notado que tus últimos objetivos fueron muy desafiantes. ¡Adelante con este, pero no dudes en dividirlo en pasos más pequeños!"
+    },
+    "history": {
+        "days_7": "7 d",
+        "month_1": "1 mes",
+        "months_3": "3 meses",
+        "loading": "Cargando...",
+        "legend_mood": "Estado de ánimo",
+        "legend_energy": "Energía",
+        "no_data": "Sin datos para este periodo.",
+        "subtitle_checkins": "{{count}} check-ins en los últimos {{filterLabel}}",
+        "insights_title": "💡 Insights Semanales"
+    },
+    "checkin": {
+        "title": "¿Cómo te sientes hoy?",
+        "subtitle": "Tus datos se quedan en el dispositivo.",
+        "mood": "Estado de ánimo",
+        "energy": "Energía",
+        "focus": "Concentración",
+        "sleep": "Sueño",
+        "drive": "Motivación",
+        "save_btn": "Obtener tu Micro-Skill",
+        "prompt_sleep_recovery": "¿Has dormido mejor esta noche?",
+        "prompt_mood_recovery": "Ayer fue duro. ¿Cómo está tu estado de ánimo hoy?",
+        "prompt_energy_streak": "Ayer tenías mucha energía. ¿La has mantenido?",
+        "prompt_default": "¿Cómo te sientes hoy?"
+    },
+    "onboarding": {
+        "title_1": "Bienvenido a FlowGym",
+        "subtitle_1": "Tu camino personal para reprogramar mente y cuerpo.",
+        "title_2": "¿Cómo te llamas?",
+        "subtitle_2": "Para una experiencia más personal.",
+        "name_placeholder": "Tu nombre",
+        "title_3": "Año de Nacimiento",
+        "subtitle_3": "Para ayudarte a personalizar tus objetivos.",
+        "year_placeholder": "Ej: 1990",
+        "btn_next": "Continuar",
+        "btn_finish": "¡Empezar el Flow!",
+        "title": "Bienvenido a FlowGym",
+        "feature_privacy_title": "100% Privacidad",
+        "feature_privacy_desc": "Tus datos se quedan aquí.",
+        "feature_ai_title": "IA en el dispositivo",
+        "feature_ai_desc": "Consejos locales.",
+        "label_name": "¿Cómo te llamas?",
+        "placeholder_name": "Tu nombre",
+        "label_year": "¿Año de nacimiento?",
+        "placeholder_year": "Ej: 1990",
+        "btn_start": "Inicia tu viaje"
+    },
+    "skill": {
+        "btn_complete": "Completar Habilidad",
+        "btn_postpone": "Posponer para más tarde",
+        "steps_header": "Pasos:",
+        "notification_title": "¡Tu Micro-Skill te espera! 🧘",
+        "notification_body": "Has pospuesto la actividad. ¡Es hora!",
+        "btn_pause": "Pausa",
+        "btn_start": "Iniciar",
+        "btn_complete_xp": "Completar (+25 XP)",
+        "btn_home": "Volver a Inicio",
+        "btn_postpone_icon": "⏰ Posponer",
+        "modal_postpone_title": "Posponer Micro-Skill",
+        "postpone_1h": "En 1 hora",
+        "postpone_2h": "En 2 horas",
+        "postpone_evening": "Esta noche (20:00)"
+    },
+    "notifications": {
+        "morning_title": "🧠 Buenos días{{name}}, tu momento FlowGym",
+        "morning_body": "Tómate 5 minutos para ti. ¡Haz tu check-in diario!",
+        "lunch_title": "Pausa recarga ⚡{{name}}",
+        "lunch_body": "Deja de mirar la pantalla, come con calma y respira.",
+        "backup_title": "¡Oye{{name}}, falta tu check-in! 🚨",
+        "backup_body": "No rompas tu racha. Dedica 5 minutos a ti mismo antes del atardecer.",
+        "evening_title": "Es hora de frenar 🌙{{name}}",
+        "evening_body": "Desconéctate de las redes sociales, respira y prepárate para un sueño profundo.",
+        "missing_checkin_title": "🚨 ¡Eh {{name}}, falta tu check-in!",
+        "missing_checkin_body": "No rompas tu racha. Dedica 5 minutos a ti mismo antes de la noche."
+    },
+    "skills": {
+        "mind_box_breathing": {
+            "title": "Respiración Cuadrada (Box Breathing)",
+            "category": "Mente",
+            "description": "Protocolo de los Navy SEALs para activar el sistema parasimpático. Reduce el estrés agudo y disminuye el ritmo cardíaco.",
+            "steps": {
+                "0": "Siéntate en una posición cómoda, con la espalda recta.",
+                "1": "Inhala por la nariz contando lentamente hasta 4.",
+                "2": "Mantén la respiración a pulmones llenos contando hasta 4.",
+                "3": "Exhala lentamente por la boca contando hasta 4.",
+                "4": "Mantén la respiración a pulmones vacíos contando hasta 4.",
+                "5": "Repite este ciclo de forma continua y fluida."
+            }
+        },
+        "mind_physiological_sigh": {
+            "title": "Suspiro Fisiológico (Huberman Lab)",
+            "category": "Mente",
+            "description": "Fuerte evidencia clínica en el cambio inmediato del sistema autónomo de simpático a parasimpático. Elimina el exceso de dióxido de carbono.",
+            "steps": {
+                "0": "Haz una inspiración rápida y profunda por la nariz hasta llenar casi completamente los pulmones.",
+                "1": "Cuando estés casi al límite, haz una segunda inspiración breve y rápida ('sniff') siempre por la nariz.",
+                "2": "Exhala muy lenta y profundamente por la boca hasta vaciar todo el aire.",
+                "3": "Concéntrate en la exhalación larga: esto es lo que baja el ritmo cardíaco.",
+                "4": "Repite de 3 a 5 ciclos. Este truco rápido modula instantáneamente los niveles de excitación."
+            }
+        },
+        "body_desk_opening": {
+            "title": "Apertura Torácica para Trabajadores de Escritorio",
+            "category": "Movimiento",
+            "description": "Contrarresta la 'postura de computadora' inhibiendo mecánicamente la tensión pectoral y activando los romboides, favoreciendo una mayor oxigenación cerebral.",
+            "steps": {
+                "0": "Ponte de pie, con los pies separados a la altura de los hombros.",
+                "1": "Entrelaza los dedos detrás de la espalda, cerca de los glúteos.",
+                "2": "Mantén los brazos rectos y empuja suavemente las manos hacia abajo y lejos de tu cuerpo.",
+                "3": "Abre el pecho hacia arriba y toma 5 respiraciones profundas.",
+                "4": "Suelta y rota los hombros hacia atrás 5 veces."
+            }
+        },
+        "focus_nsdr": {
+            "title": "NSDR (Descanso Profundo Sin Dormir)",
+            "category": "Productividad",
+            "description": "Protocolo de relajación profunda sin sueño. Aumenta la dopamina estriatal en un 65%, ayudando a la recuperación cognitiva sin dormir.",
+            "steps": {
+                "0": "Acuéstate en una superficie cómoda con los brazos a los lados.",
+                "1": "Cierra los ojos y lleva la atención a tu respiración, sin forzarla.",
+                "2": "Realiza un escaneo mental: relájate empezando por los pies, pantorrillas, muslos, pelvis, abdomen.",
+                "3": "Relaja los hombros, los brazos, el cuello, la mandíbula y los músculos alrededor de los ojos.",
+                "4": "Mantén la concentración en la sensación de peso de tu cuerpo durante toda la duración.",
+                "5": "Al terminar, mueve lentamente los dedos de las manos y de los pies y abre los ojos."
+            }
+        },
+        "prod_pomodoro_sprint": {
+            "title": "Micro Sprint de Enfoque (Pomodoro 10m)",
+            "category": "Productividad",
+            "description": "Reduce la fricción inicial (límite cognitivo de iniciar una tarea). Pasados los 5 minutos, la amígdala reduce la resistencia psicológica al trabajo.",
+            "steps": {
+                "0": "Cierra físicamente cada aplicación/pestaña innecesaria para la micro-tarea.",
+                "1": "Aleja el teléfono de tu vista (fuera del escritorio).",
+                "2": "Durante 10 minutos trabaja solo en la única tarea identificada.",
+                "3": "No te preocupes por terminar la tarea, solo preocúpate por no interrumpir la acción durante estos 10 minutos."
+            }
+        },
+        "mood_gratitude_journaling": {
+            "title": "Gratitud Específica (TCC)",
+            "category": "Mente",
+            "description": "Protocolo de Psicología Positiva (Martin Seligman). Ejercicio comprobado para aumentar la serotonina y reducir los niveles de cortisol base a lo largo del tiempo.",
+            "steps": {
+                "0": "Busca papel y bolígrafo.",
+                "1": "No escribas cosas genéricas ('mi familia'). Esfuérzate por encontrar 3 momentos ESPECÍFICOS de ayer u hoy.",
+                "2": "Ej: 'El sabor del café de esta mañana mirando afuera' o 'El cumplido de [Nombre]'.",
+                "3": "Escribe el POR QUÉ estás agradecido por cada una de esas cosas específicas.",
+                "4": "Vuelve a leer las 3 frases antes de concluir."
+            }
+        },
+        "body_neck_mobility": {
+            "title": "Reinicio de Movilidad Cervical",
+            "category": "Movimiento",
+            "description": "Libera la tensión de los músculos suboccipitales relacionados con el estrés visual por pantallas (causantes de la cefalea tensional).",
+            "steps": {
+                "0": "Sentado o de pie, baja lentamente la barbilla hacia el pecho (mantén 15 seg).",
+                "1": "Crea medias lunas lentas: lleva la oreja derecha hacia el hombro derecho.",
+                "2": "Gira lentamente hacia abajo, al centro, y lleva la oreja izquierda hacia el hombro izquierdo.",
+                "3": "Haz 5 rotaciones fluidas.",
+                "4": "Mira a un punto lo más lejos posible de la ventana (para relajar la acomodación visual)."
+            }
+        },
+        "focus_cognitive_dump": {
+            "title": "Vaciado Cognitivo (Braindump)",
+            "category": "Productividad",
+            "description": "Efecto Zeigarnik: el cerebro sigue recordando obsesivamente las tareas inacabadas. Escribirlas transfiere la carga cognitiva de la memoria de trabajo al papel.",
+            "steps": {
+                "0": "Toma una hoja de papel en blanco o abre un archivo de texto.",
+                "1": "Escribe rápidamente TODO lo que te pase por la cabeza: tareas, preocupaciones, ideas, llamadas.",
+                "2": "No filtres, no priorices, solo escribe una lista de puntos por 3 minutos ininterrumpidos.",
+                "3": "Al final, pon un asterisco solo al lado de las 2 cosas vitales para el día de hoy. Olvida el resto por ahora."
+            }
+        },
+        "mood_cognitive_reframing": {
+            "title": "Reestructuración Cognitiva (TCC)",
+            "category": "Mente",
+            "description": "Técnica cognitivo-conductual esencial. Interrumpe el ciclo de rumiación analizando el pensamiento como una hipótesis y no como un hecho.",
+            "steps": {
+                "0": "¿Cuál es el pensamiento negativo o intrusivo que tienes ahora? Escríbelo en una línea.",
+                "1": "Examina la evidencia a favor: ¿por qué crees que es irrefutablemente cierto?",
+                "2": "Examina la evidencia en contra: ¿qué hechos objetivos demuestran que NO podría ser 100% cierto?",
+                "3": "Crea un 'Pensamiento Alternativo Equilibrado': reescribe la situación de la manera más objetiva y neutra posible (sin catastrofismos)."
+            }
+        },
+        "body_20_20_20": {
+            "title": "Regla Visual 20-20-20",
+            "category": "Movimiento",
+            "description": "Protocolo oftalmológico preventivo. Reduce el estrés ciliar (espasmos del músculo del ojo) responsable de la fatiga por computadora.",
+            "steps": {
+                "0": "Mira a lo lejos desde la pantalla.",
+                "1": "Fija la mirada en un objeto situado a al menos 6 metros (20 pies) de distancia.",
+                "2": "Mantén la mirada relajada en ese objeto durante 20 segundos.",
+                "3": "Cierra fuerte los ojos durante 2 segundos, y luego parpadea rápidamente 5 veces.",
+                "4": "Ahora haz un poco de estiramiento de cuello antes de volver a trabajar."
+            }
+        },
+        "mind_4_7_8": {
+            "title": "Respiración 4-7-8 (Dr. Weil)",
+            "category": "Mente",
+            "description": "Basada en el antiguo pranayama indio. Se ha demostrado clínicamente que reduce la frecuencia cardíaca, disminuye la ansiedad de rendimiento y promueve el sueño.",
+            "steps": {
+                "0": "Coloca la punta de tu lengua detrás de los dientes incisivos superiores y mantenla ahí.",
+                "1": "Exhala completamente por la boca produciendo un sonido similar a un silbido.",
+                "2": "Cierra la boca e inhala silenciosamente por la nariz durante 4 segundos.",
+                "3": "Mantén la respiración (sin apretar la garganta) durante 7 segundos.",
+                "4": "Exhala con el silbido por la boca durante 8 segundos completos.",
+                "5": "Repite por un total de 4 ciclos completos."
+            }
+        },
+        "prod_implementation_intentions": {
+            "title": "Intención de Implementación (Si-Entonces)",
+            "category": "Productivity",
+            "description": "Al formular planes 'si... entonces...', se reduce la probabilidad de procrastinación vinculando la tarea a un desencadenante.",
+            "steps": {
+                "0": "Piensa en una tarea que sigues procrastinando hoy.",
+                "1": "Define la acción exacta a completar de forma ultra-específica.",
+                "2": "Ahora construye un límite si-entonces físico.",
+                "3": "Ej: 'SI termino de almorzar (desencadenante) / SI son las 15:00, ENTONCES me sentaré, abriré el correo X y le dedicaré 5 minutos'.",
+                "4": "Escribe tu regla y colócala como recordatorio visual."
+            }
+        },
+        "body_wall_sits": {
+            "title": "Sentadilla Isométrica en Pared (Wall Sit)",
+            "category": "Movimiento",
+            "description": "La isometría estimula los receptores de dolor, bajando la presión post-esfuerzo, mejorando el flujo de sangre al cerebro.",
+            "steps": {
+                "0": "Busca una pared libre.",
+                "1": "Apóyate contra la pared y deslízate como si te sentaras en una silla invisible.",
+                "2": "Tus rodillas deben formar un ángulo de 90 grados. Apoya bien los talones en el suelo.",
+                "3": "Contrae el abdomen. Intenta mantener la posición durante 45 - 60 segundos.",
+                "4": "Descansa 30 segundos y repite 2 veces más. Concéntrate en el ardor y en tu respiración."
+            }
+        },
+        "mind_five_senses": {
+            "title": "Anclaje 5-4-3-2-1",
+            "category": "Mente",
+            "description": "Técnica clínica para anclarse al presente (Grounding). Bloquea los ataques de pánico latentes.",
+            "steps": {
+                "0": "Mira a tu alrededor y nombra en voz alta 5 cosas físicas que PUEDES VER.",
+                "1": "Toca y reconoce 4 cosas que PUEDES SENTIR físicamente.",
+                "2": "Escucha e identifica con precisión 3 sonidos distintos que PUEDES OÍR.",
+                "3": "Esfuérzate por encontrar 2 olores que PUEDES OLER.",
+                "4": "Identifica 1 cosa que PUEDES SABOREAR (Un trago de agua o nota el sabor de tu boca)."
+            }
+        },
+        "focus_progressive_muscle": {
+            "title": "Relajación Muscular Progresiva (Jacobson)",
+            "category": "Mente",
+            "description": "Desarrollada por el Dr. Edmund Jacobson en los años 20. Ayuda a reconocer físicamente la diferencia somática entre la tensión y la relajación.",
+            "steps": {
+                "0": "Acuéstate cómodamente con los ojos cerrados.",
+                "1": "Empezando por los PIES: contrae los dedos de los pies y gemelos lo más fuerte posible durante 5 seg.",
+                "2": "Suelta la tensión repentinamente y nota la sensación de calor (pausa de 10 seg).",
+                "3": "Pasa a MUSLOS Y GLÚTEOS: contrae por 5 seg, luego suelta.",
+                "4": "Pasa a ABDOMEN Y PECHO: contrae por 5 seg, luego exhala y suelta.",
+                "5": "Pasa primero a BRAZOS/MANOS, luego a HOMBROS/CUELLO, y finalmente a MÚSCULOS FACIALES.",
+                "6": "Respira de forma normal en el último minuto quedando relajado pasivamente."
+            }
+        },
+        "prod_eat_the_frog": {
+            "title": "Tráguese Ese Sapo (Miro-Chunking)",
+            "category": "Productividad",
+            "description": "Aísla la tarea que causa la mayor tasa de ansiedad para desarmar su parálisis cognitiva.",
+            "steps": {
+                "0": "Identifica cuál es la tarea de hoy que te causa más estrés (El Sapo).",
+                "1": "Deja de pensar en todo el proyecto. ¿Cuál es el PRIMER PASO literal a tomar?",
+                "2": "Ej: 'Tengo que pagar impuestos' -> Primer paso: 'Abrir la carpeta PDF'.",
+                "3": "Escribe o declárate a ti mismo SOLO ESE MICRO-PASO.",
+                "4": "Ejecuta la acción ridícula de ese micro-paso. La inercia te arrastrará después."
+            }
+        },
+        "body_vagus_nerve_massage": {
+            "title": "Estimulación del Nervio Vago",
+            "category": "Mente",
+            "description": "Las maniobras físicas suaves pueden enviar señales tranquilizantes al tronco encefálico (tono vagal).",
+            "steps": {
+                "0": "Cruza tus manos detrás de tu cabeza, en la base del cráneo.",
+                "1": "Manteniendo el cuello quieto y la cabeza recta, desplaza tu mirada solo con los ojos hacia la derecha.",
+                "2": "Mantén la mirada hacia la derecha hasta que ocurra un suspiro espontáneo, un bostezo o pases saliva.",
+                "3": "Lleva tus ojos de regreso al centro y descansa por 5 segundos.",
+                "4": "Repite mirando al extremo izquierdo hasta que te relajes."
+            }
+        },
+        "prod_two_minute_rule": {
+            "title": "La Regla de los 2 Minutos",
+            "category": "Productividad",
+            "description": "Ayuda a liquidar instantáneamente la deuda de micro-tareas no resueltas.",
+            "steps": {
+                "0": "Ajusta un temporizador a 5 minutos (1 de planificación, 4 de ejecución).",
+                "1": "Piensa rápido en cosas pendientes que tomarán menos de 2 minutos.",
+                "2": "En los 4 minutos restantes, ejecuta como máquina estas micro-tareas.",
+                "3": "Detente de forma inflexible cuando suene el temporizador. El pico de dopamina te reiniciará."
+            }
+        },
+        "extra_meditation": {
+            "title": "Meditación Mindfulness",
+            "category": "Meditación",
+            "description": "Práctica basada en protocolos MBSR. Un metanálisis de 47 estudios (JAMA 2014) muestra una reducción significativa de la ansiedad, depresión y dolor crónico.",
+            "steps": {
+                "0": "Siéntate en una posición cómoda, espalda recta, manos en las rodillas.",
+                "1": "Cierra los ojos y lleva la atención a tu respiración natural.",
+                "2": "Cuando tu mente divague, nota el pensamiento sin juzgarlo y vuelve a la respiración.",
+                "3": "No fuerces: observa cada inhalación y exhalación como una ola.",
+                "4": "Si te distraes 100 veces, vuelve 100 veces.",
+                "5": "Al terminar, abre lentamente los ojos y nota cómo te sientes."
+            }
+        },
+        "extra_baduanjin": {
+            "title": "Ba Duan Jin (Ocho Brocados)",
+            "category": "Movimiento",
+            "description": "Secuencia de Qigong chino de 800 años de antigüedad. Estudios clínicos (Journal of Clinical Medicine, 2020) demuestran mejoras en equilibrio, flexibilidad y reducción del estrés oxidativo. Cada ejercicio se repite 8 veces.",
+            "steps": {
+                "0": "SOSTENER EL CIELO CON AMBAS MANOS\n• Movimiento: Pies al ancho de los hombros. Las manos suben frente al cuerpo, las palmas se giran hacia arriba. Empuja hacia el cielo estirando todo el cuerpo.\n• Explicación: Estira la columna vertebral, abre el tórax y respira profundamente. Luego relaja y baja las manos.\n• Propósito: Regula la respiración, estira el cuerpo y activa la energía interna.\n• Repite 8 veces.",
+                "1": "TENSAR EL ARCO COMO SI SE DISPARARA A UN HALCÓN\n• Movimiento: Posición del jinete. Una mano simula el arco, la otra tira de la cuerda. Mira en la dirección de la flecha.\n• Explicación: Abre el pecho, mantén la espalda recta. Alterna lado derecho e izquierdo.\n• Propósito: Fortalece brazos y pecho, mejora la postura.\n• Repite 8 veces (4 por lado).",
+                "2": "SEPARAR CIELO Y TIERRA\n• Movimiento: Una mano sube por encima de la cabeza, la otra baja.\n• Explicación: Ambas manos empujan en direcciones opuestas. El cuerpo permanece centrado.\n• Propósito: Estira los laterales del cuerpo, estimula estómago y bazo.\n• Repite 8 veces (4 por lado).",
+                "3": "MIRAR HACIA ATRÁS PARA PREVENIR LA FATIGA\n• Movimiento: Manos relajadas a los lados. Gira lentamente la cabeza mirando hacia atrás.\n• Explicación: El movimiento es lento y controlado. El cuerpo permanece quieto.\n• Propósito: Relaja el cuello, mejora la circulación de energía hacia la cabeza.\n• Repite 8 veces (4 por lado).",
+                "4": "BALANCEAR LA CABEZA Y LA COLA\n• Movimiento: Posición del caballo. Mueve el torso de un lado a otro.\n• Explicación: La pelvis se mueve ligeramente. La cabeza sigue el movimiento.\n• Propósito: Relaja la columna lumbar, reduce tensión y estrés.\n• Repite 8 veces.",
+                "5": "TOCAR LOS PIES CON AMBAS MANOS\n• Movimiento: Inclina el torso hacia adelante. Manos hacia los pies.\n• Explicación: No fuerces. El movimiento debe ser fluido.\n• Propósito: Estira la espalda, estimula los riñones.\n• Repite 8 veces.",
+                "6": "APRETAR LOS PUÑOS CON MIRADA FIRME\n• Movimiento: Posición del caballo. Puñetazo hacia adelante con energía.\n• Explicación: La mirada es intensa. El cuerpo permanece estable.\n• Propósito: Fortalece músculos y determinación.\n• Repite 8 veces (4 por lado).",
+                "7": "ELEVARSE SOBRE LAS PUNTAS Y DEJARSE CAER\n• Movimiento: Elévate sobre las puntas de los pies. Luego relaja y deja caer los talones.\n• Explicación: Movimiento suave. Repite varias veces.\n• Propósito: Estimula la circulación, relaja todo el cuerpo.\n• Repite 8 veces."
+            }
+        },
+        "extra_microlearning": {
+            "title": "Microaprendizaje",
+            "category": "Aprendizaje",
+            "description": "Basado en el efecto de espaciado (Ebbinghaus). Sesiones cortas y frecuentes consolidan mejor la memoria.",
+            "steps": {
+                "0": "Elige UN concepto específico para aprender hoy.",
+                "1": "Lee o mira un contenido durante un máximo de 3 minutos.",
+                "2": "Cierra la fuente y escribe 3 puntos clave de memoria.",
+                "3": "Pregúntate: \"¿Cómo puedo aplicar esto en mi vida hoy?\"",
+                "4": "Escribe la respuesta en una sola frase."
+            }
+        },
+        "extra_box_breathing": {
+            "title": "Respiración Cuadrada (Navy SEAL)",
+            "category": "Respiración",
+            "description": "Técnica de biofeedback para controlar el sistema nervioso. Normaliza el ritmo cardíaco en estrés agudo.",
+            "steps": {
+                "0": "Exhala completamente el aire de los pulmones.",
+                "1": "Inhala lentamente por la nariz durante 4 segundos.",
+                "2": "Sostén la respiración con pulmones llenos 4 segundos.",
+                "3": "Exhala profundamente por la boca durante 4 segundos.",
+                "4": "Mantén los pulmones vacíos 4 segundos.",
+                "5": "Repite manteniendo el ritmo 'cuadrado'."
+            }
+        },
+        "extra_jacobson": {
+            "title": "Relajación de Jacobson",
+            "category": "Físico",
+            "description": "Método validado para reducir la tensión muscular residual. Eficaz en el tratamiento del insomnio.",
+            "steps": {
+                "0": "Acuéstate o siéntate en un lugar tranquilo.",
+                "1": "Aprieta los puños fuerte 5 segundos, y suelta de golpe.",
+                "2": "Contrae los bíceps, mantén, y relaja.",
+                "3": "Contrae los músculos faciales, mantén, y relaja.",
+                "4": "Empuja los pies contra el suelo contrayendo las pantorrillas, y suelta.",
+                "5": "Siente el contraste entre contracción y relajación."
+            }
+        },
+        "extra_gratitude": {
+            "title": "Diario de Gratitud",
+            "category": "Psicología",
+            "description": "Práctica central de la psicología positiva. Aumenta el bienestar general y mejora la calidad del sueño.",
+            "steps": {
+                "0": "Toma un cuaderno o el Diario de la app.",
+                "1": "Escribe 3 eventos específicos de las últimas 24 horas por los que sientas gratitud.",
+                "2": "Escribe una breve frase sobre por qué ocurrió cada uno.",
+                "3": "Saborea ese sentimiento positivo durante 30 segundos.",
+                "4": "Entrena tu cerebro para enfocarse en los aspectos positivos."
+            }
+        },
+        "prod_zeigarnik_loop": {
+            "title": "Cierre de Bucle de Zeigarnik",
+            "category": "Productividad",
+            "description": "El efecto Zeigarnik indica que las tareas interrumpidas secuestran tu RAM mental. Externalizarlas reduce instantáneamente la ansiedad.",
+            "steps": {
+                "0": "Toma lápiz y papel o abre una nota en el teléfono. Debes escribir físicamente.",
+                "1": "Enumera rápidamente todos los 'bucles abiertos' (conversaciones por terminar, decisiones pendientes). Todo lo que zumba en tu cabeza.",
+                "2": "No organices ni filtres la lista. El objetivo es transferir el peso de la memoria de trabajo (RAM) a un soporte externo.",
+                "3": "Respira. El cerebro ahora sabe que la información está a salvo y dejará de recordártela obsesivamente.",
+                "4": "Solo ahora, elige una única prioridad real para el día."
+            }
+        },
+        "body_bilateral_stimulation": {
+            "title": "Estimulación Bilateral (Abrazo de la Mariposa)",
+            "category": "Movimiento",
+            "description": "Técnica usada en trauma (EMDR) para procesar respuestas emocionales desescalando la hiperactivación de la amígdala vía interacción hemisférica.",
+            "steps": {
+                "0": "Cruza los brazos sobre el pecho para que los dedos de la mano derecha toquen la clavícula/hombro izquierdo y viceversa.",
+                "1": "Cierra los ojos y comienza a tamborilear alternativamente sobre los hombros, rítmicamente (como alas de mariposa).",
+                "2": "No intentes alejar los pensamientos o emociones frustrantes, déjalos fluir.",
+                "3": "Continúa tamborileando durante uno o dos minutos completos.",
+                "4": "Detente cuando sientas una clara caída en la intensidad emocional en el cuerpo."
+            }
+        },
+        "mind_self_compassion_break": {
+            "title": "Pausa de Autocompasión (Kristin Neff)",
+            "category": "Mente",
+            "description": "Protocolo probado en atletas para desactivar la severa autocrítica en momentos de fracaso o insuficiencia que paralizan la acción posterior.",
+            "steps": {
+                "0": "Primer paso - Atención plena: admite abiertamente la dificultad. Piensa: 'Este es un momento realmente difícil' o 'Esto duele ahora mismo'.",
+                "1": "Segundo paso - Humanidad compartida: reconoce que no estás solo. Piensa: 'Otras personas también sienten esto', 'Sentirse inadecuado a veces es normal'.",
+                "2": "Tercer paso - Amabilidad: pon una mano sobre el corazón para sentir el calor físico del contacto táctil calmante.",
+                "3": "Repite la intención curativa: 'Que pueda ser comprensivo conmigo mismo; que pueda darme lo que necesito ahora'.",
+                "4": "La autocrítica activa la amenaza (lucha-huida), la compasión libera oxitocina promoviendo el sentido primordial de cuidado."
+            }
+        },
+        "extra_yoganidra": {
+            "title": "Yoga Nidra (NSDR)",
+            "category": "Físico",
+            "description": "Protocolo de sueño dinámico (Non-Sleep Deep Rest). Estudios demuestran que 20 minutos restauran niveles de dopamina equivalentes a un ciclo de sueño profundo.",
+            "steps": {
+                "0": "Acuéstate boca arriba (Savasana) en un lugar tranquilo, con brazos y piernas ligeramente separados.",
+                "1": "Cierra los ojos y lleva tu conciencia a la respiración natural.",
+                "2": "Inicia una rotación de conciencia: lleva la atención al pulgar derecho, índice, medio, anular, meñique...",
+                "3": "Desplaza mentalmente la atención por cada parte del cuerpo sin moverla, del lado derecho al izquierdo, hasta los pies.",
+                "4": "Enfócate en la sensación de pesadez, luego en la de ligereza (estimulación del sistema parasimpático).",
+                "5": "Termina despertando gradualmente el cuerpo con pequeños movimientos antes de abrir los ojos."
+            }
+        },
+        "extra_cognitive_defusion": {
+            "title": "Defusión Cognitiva (ACT)",
+            "category": "Psicología",
+            "description": "Ejercicio de Terapia de Aceptación y Compromiso (ACT) para desactivar la reactividad a los pensamientos intrusivos, creando distancia psicológica.",
+            "steps": {
+                "0": "Identifica un pensamiento negativo recurrente o una autocrítica (ej. 'Soy un fracaso').",
+                "1": "Nota cómo te hace sentir en el cuerpo cuando estás 'fusionado' con este pensamiento.",
+                "2": "Ahora, di lentamente en voz alta: 'Estoy teniendo el pensamiento de que soy un fracaso'.",
+                "3": "Da un paso más de distanciamiento: 'Noto que estoy teniendo el pensamiento de que soy un fracaso'.",
+                "4": "Imagina tu pensamiento escrito en una hoja que flora en un arroyo, y mírala alejarse.",
+                "5": "El pensamiento no eres tú; es sólo un evento mental transitorio."
+            }
+        },
+        "extra_metta": {
+            "title": "Meditación Metta (Amor Benevolente)",
+            "category": "Meditación",
+            "description": "Práctica de amor benevolente asociada a un aumento del tono vagal y una disminución de la excitación asociada al estrés crónico y la ira.",
+            "steps": {
+                "0": "Siéntate cómodamente con los ojos cerrados y haz tres respiraciones profundas.",
+                "1": "Lleva la atención al centro de tu pecho. Visualízate a ti mismo y repite mentalmente: 'Que sea feliz, que esté a salvo, que tenga salud'.",
+                "2": "Trae a la mente a un ser querido y repite: 'Que seas feliz, que estés a salvo, que tengas salud'.",
+                "3": "Ahora trae a la mente a una persona 'neutra' (ej. el cartero) y dedícale las mismas frases.",
+                "4": "Termina extendiendo el pensamiento: 'Que todos los seres sean felices, estén a salvo y tengan salud'.",
+                "5": "Nota las sensaciones de apertura y calidez en el cuerpo antes de concluir."
+            }
+        }
+    },
+    "common": {
+        "confirm": "Confirmar",
+        "cancel": "Cancelar",
+        "close": "Cerrar",
+        "save": "Guardar",
+        "continue": "Continuar",
+        "xp_earned": "¡XP ganados!"
+    },
+    "settings": {
+        "language_title": "Seleccionar idioma"
+    }
+}
