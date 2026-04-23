@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "FLOWGYM",
+    "name": "Flow Gym",
     "slug": "FLOWGYM",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./src/assets/imgs/flow_gym_logo.png",
     "userInterfaceStyle": "light",
